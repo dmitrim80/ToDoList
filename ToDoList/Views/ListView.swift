@@ -16,7 +16,7 @@ struct ListView: View {
         List {
             ForEach(items) { item in
                 ListRowView(item: item)
-            }
+            }.onDelete(perform: deleteItem)
         }.listStyle(PlainListStyle())
         .navigationTitle("ToDo List 📝")
             .navigationBarItems(
@@ -24,6 +24,9 @@ struct ListView: View {
                 trailing:
                         NavigationLink("Add", destination: AddView())
             )
+    }
+    func deleteItem(indexSet: IndexSet) {
+        items.remove(atOffsets: indexSet)
     }
 }
 
