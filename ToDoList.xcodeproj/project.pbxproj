@@ -12,6 +12,7 @@
 		BB1340882A215BCB0028CB18 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1340872A215BCB0028CB18 /* AddView.swift */; };
 		BB13408B2A2168DD0028CB18 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13408A2A2168DD0028CB18 /* ItemModel.swift */; };
 		BB1340902A22A55A0028CB18 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13408F2A22A55A0028CB18 /* ListViewModel.swift */; };
+		BB30611E2A2FD4A4004E9439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB30611D2A2FD4A4004E9439 /* LaunchScreen.storyboard */; };
 		BBFDE2252A21410700B9490C /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFDE2242A21410700B9490C /* ToDoListApp.swift */; };
 		BBFDE2292A21410B00B9490C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFDE2282A21410B00B9490C /* Assets.xcassets */; };
 		BBFDE22D2A21410B00B9490C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFDE22C2A21410B00B9490C /* Preview Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		BB1340872A215BCB0028CB18 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		BB13408A2A2168DD0028CB18 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		BB13408F2A22A55A0028CB18 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BB30611D2A2FD4A4004E9439 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFDE2212A21410700B9490C /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBFDE2242A21410700B9490C /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		BBFDE2282A21410B00B9490C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				BB1340852A2157FD0028CB18 /* ListRowView.swift */,
 				BB00D0B42A2E019400BDBE5C /* NoItemsView.swift */,
 				BB1340872A215BCB0028CB18 /* AddView.swift */,
+				BB30611D2A2FD4A4004E9439 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB30611E2A2FD4A4004E9439 /* LaunchScreen.storyboard in Resources */,
 				BBFDE22D2A21410B00B9490C /* Preview Assets.xcassets in Resources */,
 				BBFDE2292A21410B00B9490C /* Assets.xcassets in Resources */,
 			);
@@ -469,6 +473,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,6 +512,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
