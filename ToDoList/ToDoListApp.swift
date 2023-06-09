@@ -18,14 +18,25 @@ import SwiftUI
 struct ToDoListApp: App {
     
     @StateObject var listViewModel: ListViewModel = ListViewModel()
+    @State private var showLaunchView: Bool = true
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ListView()
-            } //for ipad view compatibility
-            .navigationViewStyle(StackNavigationViewStyle())
-            .environmentObject(listViewModel)
+            ZStack {
+                
+                NavigationView {
+                    ListView()
+                } //for ipad view compatibility
+                .navigationViewStyle(StackNavigationViewStyle())
+                .environmentObject(listViewModel)
+                
+                ZStack{
+                    if showLaunchView == true {
+                        LaunchView(showLaunchView: $showLaunchView)
+                            .transition(.move(edge: .leading))
+                    }
+                }.zIndex(2.0)
+            }
         }
     }
 }
